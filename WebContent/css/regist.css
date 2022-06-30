@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+main {
+	border: solid 3px #D8BfD8; /* 枠線指定 */
+	display: inline-block; /* インラインブロックにする */
+	padding: 10px 20px; /* 余白指定 */
+	background-color: #FEE7E7;
+	border-radius: 20px;/*角の丸み*/
+}
+
+main.bu {
+	width: 10%;
+	height: 40px;
+	background-color: #FEE7E7;
+	color: black;
+	margin: 0 1%;
+	border-width: 1px;
+}
+.wrapper{
+position: absolute;
+right: 0;
+bottom: 0;
+width: 45%;
+height: 10px;
+
+}
+p{
+  padding:20px 0;
+}
+.wrapper2{
+position: absolute;
+left: 0;
+bottom: 0;
+width: 5%;
+height: 10px;
+
+}
+p{
+  padding:20px 0;
+}
